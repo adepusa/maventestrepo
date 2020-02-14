@@ -14,28 +14,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-	<dependency>
-  <groupId>com.broadridge</groupId>
-  <artifactId>NexusLab</artifactId>
-  <version>4.0</version>
-  <exclusions>
-        <exclusion>
-          <groupId>junit</groupId> <!-- Exclude Project-D from Project-B -->
-          <artifactId>junit</artifactId>
-        </exclusion>
-      </exclusions>
-</dependency>
+	
   </dependencies>
-  <distributionManagement>
-  <repository>
-    <id>broad</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.126.143.94:8081/repository/sai-release-hosted/</url>
-  </repository>
-  <snapshotRepository>
-    <id>broad</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.126.143.94:8081/repository/sai-snapshot-hosted/</url>
-  </snapshotRepository>
-</distributionManagement>
+  
 </project>
